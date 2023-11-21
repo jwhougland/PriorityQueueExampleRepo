@@ -55,6 +55,15 @@ public class Main {
             Assignment assignment = queue.poll();
             System.out.println(assignment);
         }
+
+        // Noting that the above while loop prints the following:
+        // Printing assignments in priority order:
+        // Assignment{description='Finish work assignment #2', dueDate=Thu Nov 23 11:43:04 CST 2023, priority=HIGH}
+        // Assignment{description='Buy milk and eggs', dueDate=Thu Nov 23 11:43:04 CST 2023, priority=MEDIUM}
+        // Assignment{description='Finish work assignment #1', dueDate=Sat Nov 25 11:43:04 CST 2023, priority=HIGH}
+        // Assignment{description='Continue Udemy course', dueDate=Sun Nov 26 11:43:04 CST 2023, priority=MEDIUM}
+        // Assignment{description='Find new show on Netflix', dueDate=Mon Nov 27 11:43:04 CST 2023, priority=LOW}
+        // Assignment{description='Check out new restaurant', dueDate=Mon Dec 04 11:43:04 CST 2023, priority=LOW}
     }
 
     /**
