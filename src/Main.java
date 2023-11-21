@@ -56,7 +56,7 @@ public class Main {
             System.out.println(assignment);
         }
 
-        // Noting that the above while loop prints the following:
+        // Noting that the above while loop prints the following (due date subject to change based on app run time):
         // Printing assignments in priority order:
         // Assignment{description='Finish work assignment #2', dueDate=Thu Nov 23 11:43:04 CST 2023, priority=HIGH}
         // Assignment{description='Buy milk and eggs', dueDate=Thu Nov 23 11:43:04 CST 2023, priority=MEDIUM}
